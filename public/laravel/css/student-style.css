@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff; /* #c0b679 */
+	font: normal 14px "Lucida Grande", sans-serif;
+}
+button { cursor: pointer; text-align: center; }
+img { border: 0; }
+.wrapper {
+	margin: 5px auto;
+	width: 300px;
+	padding: 0 5px;
+	
+}
+.center_box {
+	float: left;
+	width: 300px;
+	padding: 5px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 2px #333;
+	background: #CCC;
+}
+.header{
+	font: bold 17px Tahoma, Geneva, sans-serif;
+	color: #646464;
+	text-align: center;
+}
+.cont .head {
+	float: left;
+	width: 80px;
+	line-height: 20px;
+	font: bold 11px Tahoma, Geneva, sans-serif;
+	color: #646464;
+	text-align: right;
+	margin: 5px 0;
+}
+.cont .field {
+	float: left;
+	margin: 5px 0;
+	margin-left: 10px; 
+	width: 200px;
+	line-height: 20px;
+	font: normal 11px Tahoma, Geneva, sans-serif;
+	color: #646464;
+	text-align: left;
+}
+.cont .fields {
+	float: left;
+	margin: 5px 0;
+	margin-left: 10px; 
+	width: 200px;
+	line-height: 20px;
+	font: normal 13px Tahoma, Geneva, sans-serif;
+	color: #646464;
+	text-align: left;
+}
+
+.button a { 
+	border: 1px solid #a0a0a0;
+	text-decoration: none;
+	font: normal 11px Tahoma, Geneva, sans-serif;
+	color: #3c3c3c;
+	width: 60px; 
+	line-height: 19px;
+	padding: 0px;
+	float: left;
+	margin-top: 1px;
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 20px;
+	background: #E5E4E2;
+	-moz-box-shadow: 0 0 2px #999;
+	-webkit-box-shadow: 0 0 2px #999;
+	box-shadow: 0 0 2px #999;
+}
+#add{
+	text-align: right;
+}
+#view{
+	margin-left:95px;
+	text-align: left;
+}
+#error{
+	margin-top:10px;
+	margin-left:55px;
+	text-align: left;
+	color: #FF0000;
+}
