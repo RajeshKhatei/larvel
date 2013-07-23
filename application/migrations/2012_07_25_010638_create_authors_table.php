@@ -1,6 +1,6 @@
 <?php
 
-class Create_Authors_Table {
+class Create_Students_Table {
 
 	/**
 	 * Make changes to the database.
@@ -9,10 +9,13 @@ class Create_Authors_Table {
 	 */
 	public function up()
 	{
-		Schema::create('authors', function($table){
+		Schema::create('students', function($table){
 			$table->increments('id');
 			$table->string('name');
-			$table->text('bio');
+			$table->bigint('phone');
+			$table->text('city');
+			$table->text('branch');
+			$table->text('professor');
 			$table->timestamps();
 		});
 	}
@@ -24,7 +27,6 @@ class Create_Authors_Table {
 	 */
 	public function down()
 	{
-		Schema::drop('authors');
+		Schema::drop('students');
 	}
-
 }
